@@ -29,6 +29,69 @@
         <h2>Using ChatGPT</h2>
             <p>Using chatGPT is very cool and quick. I really struggle with getting started on any project and chatGPT has made that a complete non-issue. Just tell it what you need and bam you got it.</p>
         </article>
+        <hr>
+
+        <article id="contact_form">
+        <h4>Contact Form</h4>
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset><legend>Info</legend>
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Jane/John" autocomplete="on" required autofocus>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="password" required>
+                </p>
+                <p>
+                    <label for="pet">Favorite Pet:</label>
+                    <select name="pet" id="pet">
+                        <optgroup label="Mammal">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        </optgroup>
+                        <optgroup label="Amphibian">
+                        <option value="frog">Frog</option>
+                        <option value="toad" selected>toad</option>
+                        </optgroup>
+                        <optgroup label="Other Options">
+                        <option value="none">No pets for me!</option>
+                        <option value="other">Your list is bad</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset><legend>Skate preference</legend>
+                <input type="radio" name="skate" id="urban" value="Urban">
+                <label for="urban">Urban</label>
+                <input type="radio" name="skate" id="aggressive" value="Aggressive">
+                <label for="aggressive">Aggressive</label>
+                <input type="radio" name="skate" id="speed" value="Speed">
+                <label for="speed">Speed</label>
+                <input type="radio" name="skate" id="wizard" value="Wizard">
+                <label for="wizard">Wizard</label>
+            </fieldset>
+
+            <fieldset><legend>What do you think?</legend>
+                <label for="message">Thoughts go here:</label>
+                <br>
+                <textarea name="message" id="message" cols="60" rows="5" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        </form>
+        </article>
+
+        <article>
+            <h3>My Understanding of HTTPbin</h3>
+            <p>HTTPbin is essentially a free service to test a form and view its data.</p>
+            <p>When a form is sent to HTTPbin it sends the data back to the client as a sort of organized info dump providing fields and their responses along with other information such as client ip.</p>
+            <p>the get method stores all form information in the form in the url whereas push stores it as a packet</p>
+            <p>this makes push more secure but the get method allows a form to be bookmarked though I don't know why you would want that anyways.</p>
+        </article>
+        <hr>
         <article>
             <h4>Pages Nav</h4>
             <ul>
