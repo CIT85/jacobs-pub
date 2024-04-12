@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:22px
+}
+
+body {
+    background-color: #AFD0D6;
+}
+
+h1, h2, h3, h4, h5, h6, p, figcaption  {
+    color: #36393B;
+}
+
+h1 {
+    background-color: #61BBFF;
+}
+
+h2 {
+    background-color: #C49799;
+}
+
+h3, h4, h5, h6 {
+    background-color: #BFB6BB;
+}
+
+a {
+    color: rgb(12, 128, 230);
+}
+a:visited {
+    color: rgb(158, 158, 158);
+}
+a:hover, a:active {
+    color: #eee;
+}
+
+table, tr, th, td, caption {
+    border: 2px solid #61BBFF;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.img_border {
+    margin: 0.75rem;
+    border: 3px solid black;
+    outline: 8px double #61BBFF;
+    border-radius: 40px;
+}
