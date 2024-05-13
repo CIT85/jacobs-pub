@@ -162,18 +162,8 @@ a:hover {
 main {
 /*     background-color: #F7BFB4; */
     color: #3f3433;
-/*     margin: 0.5rem;
-    padding: 1.5rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.55rem; */
     grid-row: 2/2;
     grid-column: 2/2;
-}
-
-/* just applying to main page as the other pages don't need the fancy scroll feature and different header heights messes with stuff */
-.mainMain {
-    /* starting point for main content of the page essentially */
-/*     margin-top: 18.7rem; */
 }
 
 /* Headings */
@@ -428,10 +418,6 @@ button {
         main {
             /*     background-color: #F7BFB4; */
                 color: #3f3433;
-            /*     margin: 0.5rem;
-                padding: 1.5rem;
-                padding-top: 0.25rem;
-                padding-bottom: 0.55rem; */
                 grid-row: 2/2;
                 grid-column: 2/2;
         }
