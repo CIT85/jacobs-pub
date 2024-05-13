@@ -170,6 +170,7 @@ main {
 h2 {
     font-size: 3rem;
     background-color:#db93b0;
+    text-align: center;
 }
 
 .headingScroll {
@@ -386,6 +387,7 @@ button {
         }
         p {
             font-size: 1rem;
+            line-height: 1.25rem;
         }
         ol, ul {
             font-size: 1rem;
@@ -432,6 +434,10 @@ button {
 /* LARGE */
 @media screen and (min-width: 1024px) {
     /* the default page settign before implementation of breakpoints seems to work well for this size */
+    p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
 }
 
 /* XL */
@@ -447,6 +453,10 @@ button {
     }
     body {
         grid-template-columns: 11.5vw auto;
+    }
+    p {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }
 
@@ -488,5 +498,9 @@ button {
     .topic5 {
         grid-row: 6/7;
         grid-column: 1/6;
+    }
+    p {
+        font-size: 1.75rem;
+        line-height: 2.2rem;
     }
 }
