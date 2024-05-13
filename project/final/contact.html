@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "author" content = "Jacob Sponsel">
+    <meta name = "description" content = "Contact form page">
+    <title>Contact Form</title>
+    <link rel = "icon" href = "../img/favicon.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "css/main.css" type = "text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    <nav class="verticalNav">
+        <h4>Menu</h4>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <br>
+            <li><a href="get_started.html">Get Started Printing</a></li>
+            <br>
+            <li><a href="tips.html">3D Printing Tips</a></li>
+            <br>
+            <li><a href="advanced.html">Advanced</a></li>
+        </ul>
+    </nav>
+    <nav class="horizontalNav">
+        <h4>Nav</h4>
+        <p>
+            <a href="index.html">Home</a>, <a href="get_started.html">Get Started Printing</a>, <a href="tips.html">3D Printing Tips</a>, <a href="advanced.html">Advanced</a>
+        </p>
+    </nav>
+    <main>
+        <article class="article">
+            <h2>Why I made this site</h2>
+            <p>I made this site because I love 3D prinitng and thought it would be cool to make a general 3D printing information website as my final for this class.</p>
+        </article>
+
+        <article class="article">
+            <h3>Contact Form</h3>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset><legend>Info</legend>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Jane/John" autocomplete="on" required autofocus>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+                    </p>
+                </fieldset>
+
+                <fieldset><legend>Printer</legend>
+                    <input type="radio" name="printer" id="coreXZ" value="coreXZ">
+                    <label for="coreXZ">CoreXZ</label>
+                    <input type="radio" name="printer" id="coreXY" value="coreXY">
+                    <label for="coreXY">CoreXY</label>
+                    <input type="radio" name="printer" id="resin" value="resin">
+                    <label for="resin">Resin</label>
+                    <p>
+                        <label for="mat">Favorite printing material:</label>
+                        <select name="mat" id="mat">
+                            <optgroup label="Filament">
+                            <option value="pla">PLA</option>
+                            <option value="petg">PETG</option>
+                            <option value="abs">ABS</option>
+                            </optgroup>
+                            <optgroup label="Resin">
+                            <option value="standard">Standard</option>
+                            <option value="highres">High-Res</option>
+                            <option value="tough">Tough</option>
+                            <option value="flex">Flexable</option>
+                            </optgroup>
+                            <optgroup label="Other Options">
+                            <option value="none">Not interested in printing</option>
+                            <option value="other">Some other material</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset><legend>What do you think?</legend>
+                    <label for="message">Just a little something you may want to say:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="60" rows="5" placeholder="Type your message here"></textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <a href="site.html">Site Page</a>
+    </footer>
+</body>

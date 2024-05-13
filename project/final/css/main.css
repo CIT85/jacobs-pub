@@ -254,6 +254,27 @@ footer {
     text-align: center;
 }
 
+/* Form */
+form {
+    color: #3f3433;
+    padding: 0.5rem;
+    background-color: #F7BFB4;
+}
+
+fieldset {
+    padding: 0.25rem;
+    border: 4px #3f3433 double;
+}
+
+legend {
+    font-size: 1.25rem;
+}
+
+button {
+    margin-top: 0.25rem;
+    padding: 0.1rem;
+}
+
 /* XS */
 @media screen and (max-width: 640px) {
     /* font size changes */
