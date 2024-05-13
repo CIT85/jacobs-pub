@@ -201,7 +201,7 @@ h4 {
 /* using a class on the articles and a div to give them some padding and margin to more easily tell main sections apart */
 /* using div because naming the section where the div is doesn't make much sense here it used to be an article though */
 /* added .articleTechGrid class as the class needed to change for where i applied the grid */
-.article, .articleTechGrid, .articleMatsGrid {
+article, .articleTechGrid, .articleMatsGrid {
     background-color: rgb(247, 191, 180);
     margin: 0.5rem;
     padding: 1.5rem;
@@ -391,6 +391,7 @@ button {
         }
         ol, ul {
             font-size: 1rem;
+            line-height: 1.25rem;
         }
         tr, th, td {
             font-size: 1rem;
@@ -438,6 +439,10 @@ button {
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
+    ol, ul {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
 }
 
 /* XL */
@@ -455,6 +460,10 @@ button {
         grid-template-columns: 11.5vw auto;
     }
     p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    ol, ul {
         font-size: 1.5rem;
         line-height: 2rem;
     }
@@ -500,6 +509,10 @@ button {
         grid-column: 1/6;
     }
     p {
+        font-size: 1.75rem;
+        line-height: 2.2rem;
+    }
+    ol, ul {
         font-size: 1.75rem;
         line-height: 2.2rem;
     }
