@@ -325,7 +325,7 @@ button {
         max-width: 50%;
     }
     textarea {
-        width: 15rem;
+        width: 10rem;
     }
 }
 
@@ -380,6 +380,9 @@ button {
     }
     img {
         max-width: 50%;
+    }
+    textarea {
+        width: 10rem;
     }
 }
 
@@ -439,6 +442,9 @@ button {
         }
         img {
             max-width: 50%;
+        }
+        textarea {
+            width: 15rem;
         }
 }
 
